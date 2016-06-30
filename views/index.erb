@@ -1,8 +1,21 @@
+<h1>Anagram or Aint-a-Gram?</h1>
+<p>
+  Two words are considered anagrams if they contain the same letters but in different order (e.g. "cat" and "act", "listen" and "silent").
+</p>
+<p>
+  Input a single word and a list of other words that you think may be anagrams.
+<br>
+  After submitting the form, you will be told which of the list of strings/words are anagrams of the target word.
+</p>
 <form action="/results">
   <div class="form-group">
-    <label for="number">Enter a cent value</label>
-    <input type="number" name="number">
+    <label for="word">Enter one word</label>
+    <input id="word" name="word" class="form-control" type="text" >
+  </div>
+  <div class="form-group">
+    <label for="string">Enter a list of possible anagrams</label>
+    <input id="string" name="string" class="form-control" type="text" >
   </div>
   <br>
-  <button type="submit" id="enter" class="">Submit!</button>
+  <button type="submit" id="anagrammed" class="">Anagram?</button>
 </form>
